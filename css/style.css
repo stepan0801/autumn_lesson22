@@ -1,0 +1,106 @@
+@import "reset.css";
+/* =================шрифти===================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{font-family: "Lato";
+font-style: normal;
+color: #424551;
+	
+}
+.wrapper{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper>main {
+flex-grow: 1;
+}
+/* ============================Обмежуючий контейнер=================================== */
+[class*="__container"]{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.page {
+	background-color: rgb(39, 39, 212);
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.syntax__container {
+	background-color: #a74825;
+	color: aqua;
+	border: 2px solid black;
+	padding: 15px;
+	font-size: 18px;
+
+}
+.syntax__main-tittle {
+	max-width: 300px;
+	font-size: 26px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.syntax__variant:not(:last-child) {
+	margin-bottom: 20px;
+}
+.syntax__tittle{
+	font-size: 20px;
+	color: wheat;
+	margin-bottom: 10px;
+}
+
+
+
+.const__container {
+	background-color: rgb(88, 32, 218);
+	color: aquamarine;
+	border: 2px solid black;
+	padding: 15px;
+	font-size: 18px;
+}
+.const__main-tittle {
+	max-width: 300px;
+	font-size: 26px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.const__task:not(:last-child) {
+	margin-bottom: 20px;
+}
+.const__tittle {
+	font-size: 20px;
+	color: wheat;
+	margin-bottom: 10px;
+}
+
+
+.data-types__container {
+	background-color: rgb(32, 218, 48);
+	color: rgb(14, 32, 9);
+	border: 2px solid black;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.data-types__main-tittle {
+	max-width: 300px;
+	font-size: 26px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	color: gold;
+}
+
+.data-types__paragraph:not(:last-child) {
+	margin-bottom: 10px;
+}
+span{
+	display: inline-block;
+	background-color: red;
+}

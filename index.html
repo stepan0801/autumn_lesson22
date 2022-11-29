@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>lesson_22</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+			</header>
+			<main class="page">
+				<div class="page__syntax syntax">
+					<div class="syntax__container">
+						<h2 class="syntax__main-tittle">Синтаксис</h2>
+						<div class="syntax__variant">
+							<h2 class="syntax__tittle">Варіант 1</h2>
+							<p class="syntax__paragraph">Помилки немає, але в кінці рядка рекомендовано ставити ";"</p>
+						</div>
+						<div class="syntax__variant">
+							<h2 class="syntax__tittle">Варіант 2</h2>
+							<p class="syntax__paragraph">Помилки немає, але рядки рекомендовано розділяти ";"</p>
+						</div>
+						<div class="syntax__variant">
+							<h2 class="syntax__tittle">Варіант 3</h2>
+							<p class="syntax__paragraph"><span>Помилка</span>, console.log('Учим') і console.log('JS') розділяти ";"</p>
+						</div>
+						<div class="syntax__variant">
+							<h2 class="syntax__tittle">Варіант 4</h2>
+							<p class="syntax__paragraph"><span>Помилка</span>, console.log('Учим) не закриті одинарні лапки. Правильний варіант: console.log('Учим')</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__const const">
+					<div class="const__container">
+						<h2 class="const__main-tittle">Змінні і константи</h2>
+						<div class="const__task">
+							<h2 class="const__tittle">Завдання 1</h2>
+							<p class="const__paragraph">let userEyesColor = 2;</p>
+						</div>
+						<div class="const__task">
+							<h2 class="const__tittle">Завдання 2</h2>
+							<p class="const__paragraph">let user;
+								let userName;
+								userName = "Вася";
+								user = userName;
+								console.log(user)</p>
+						</div>
+						<div class="const__task">
+							<h2 class="const__tittle">Завдання 3</h2>
+							<p class="const__paragraph">
+								№1 <span>невірно</span>, вірно: let user = 'Вася', age = 36; або let user = 'Вася'; let age = 36;
+								№2 краще записати: let myAge = 36;
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__data-types data-types">
+					<div class="data-types__container">
+						<h2 class="data-types__main-tittle">Типи данних</h2>
+						<p class="data-types__paragraph">
+							Варіант1: помили немає, але якщо потрібно вивести в консоль змінну userAge, то краще записати так:
+							let userInfo = `Фрілансер ${userAge}`;
+						</p>
+						<p class="data-types__paragraph">
+							Варіант2: <span>помилка</span>, адже в консоль виведеться значення Infinity
+						</p>
+						<p class="data-types__paragraph">
+							Варіант3: <span>помилка</span>, адже в консоль виведеться значення undefined
+						</p>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
